@@ -1,0 +1,20 @@
+@import '../../App.scss';
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--c-main);
+
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  width: 200px;
+  height: 200px;
+  background-color: var(--c-do-not-scroll);
+}

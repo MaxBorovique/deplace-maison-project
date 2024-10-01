@@ -1,1 +1,7 @@
 @import './styles/reset';
+@import './styles/theme.scss';
+
+html {
+  background-color: var(--c-main);
+  min-height: 100vh;
+}
